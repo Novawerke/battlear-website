@@ -1,0 +1,134 @@
+/* BASIC RESET */
+body, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #7D3C3A;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+a.button:hover {
+  background-color: #5A2A27;
+}
+
+header {
+  background-color: #89d377;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+.hero {
+  position: relative;
+  height: 20vh;
+  background: url('your-background.jpg') center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background-color: rgba(137, 211, 119, 01);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  max-width: 90%;
+}
+
+main {
+  padding: 20px;
+}
+
+.tours-section {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.tours-section h2 {
+  color: #4B6B43;
+  margin-bottom: 20px;
+}
+
+.tours-section p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.tour-option {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.events-section {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.events-section h2, .events-section h3 {
+  color: #4B6B43;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.events-section p, .events-section ul {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.events-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.events-section ul li {
+  margin-bottom: 8px;
+}
+
+.button-center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.event-banner {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
