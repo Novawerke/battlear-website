@@ -132,3 +132,42 @@ footer {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   text-align: center;
 }
+
+.photo-credit {
+  text-align: center;
+}
+
+
+
+.centered-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.centered-content p {
+  margin: 1em 0;
+}
+
+.photo-credit figcaption {
+  font-size: 0.7em;
+  color: gray;
+  margin-top: 4px;
+}
+
+footer {
+  text-align: right;
+  padding: 1em;
+  font-size: 0.9em;
+  color: #333 !important;
+  background-color: #f9f9f9 !important;
+}
+
+footer a {
+  color: #000 !important;
+  text-decoration: underline;
+}
+
+
+
